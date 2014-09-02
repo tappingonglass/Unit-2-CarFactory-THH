@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  CarFactory.swift
 //  Unit 2 X Code test
 //
 //  Created by Todd Hoffman on 8/31/14.
@@ -8,5 +8,9 @@
 
 import Foundation
 
-println("Hello, World!")
-
+class CarFactory {
+    var name = ""
+    var color = ""
+    var horsepower = 0
+    var automaticOption = false
+}
